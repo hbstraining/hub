@@ -24,6 +24,12 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // really ESLint standard, I love you a lot, but allowing lines to end without semicolons makes me embarrassed for you
+    "semi": ["error", "always"],
+    // it may be non-standard, but it just reads so much more clearly
+    "space-in-parens": ["error", "always", { "exceptions": ["empty"] }],
+    "object-curly-spacing": ["error", "always"],
+    "array-bracket-spacing": ["error", "always"]
   }
 }
