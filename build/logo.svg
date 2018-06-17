@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="622px" height="624px" viewBox="0 0 622 624" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>new logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.02764169,0 L426.461556,0 C454.130399,227.101522 383.958149,388.074451 215.944805,482.918785 C47.9294556,388.0727 -22.0429323,227.099771 6.02764169,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="new-logo" transform="translate(1.000000, 0.000000)">
+            <path d="M75.0000441,0 L546.003117,0 C576.999926,254.415292 498.387463,434.748625 310.165728,541 C121.941745,434.746663 43.5531836,254.41333 75.0000441,0 Z" id="outer-shield" fill="#383838"></path>
+            <g id="inner-shield" transform="translate(94.000000, 26.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#1E1E1E" xlink:href="#path-1"></use>
+                <text id="zerocool" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#77DF74">
+                    <tspan x="37" y="84">zerocool</tspan>
+                </text>
+                <text id="$" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#64A962">
+                    <tspan x="37" y="114">$</tspan>
+                </text>
+                <text id="training" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#77DF74">
+                    <tspan x="152" y="84">training</tspan>
+                </text>
+                <text id="master" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#77DF74">
+                    <tspan x="266" y="84">master</tspan>
+                </text>
+                <text id="in" mask="url(#mask-2)" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" letter-spacing="1.050001" fill="#77DF74">
+                    <tspan x="125" y="84">in</tspan>
+                </text>
+                <text id="cd-modern-web-develo" mask="url(#mask-2)" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" letter-spacing="1.050001" fill="#77DF74">
+                    <tspan x="59" y="114">cd modern-web-development</tspan>
+                </text>
+                <rect id="Rectangle-2" fill="#77DF74" mask="url(#mask-2)" x="328" y="98" width="10" height="17"></rect>
+                <text id="on" mask="url(#mask-2)" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" letter-spacing="1.050001" fill="#77DF74">
+                    <tspan x="233" y="84">on</tspan>
+                </text>
+            </g>
+            <g id="banner" transform="translate(0.000000, 376.000000)">
+                <polygon id="Polygon-5-Copy-2" stroke="#111111" fill="#444444" points="100.499942 4.64783951 102.741848 22.0508051 63.6300049 58.3599854 61.3871155 40.9568492"></polygon>
+                <polygon id="Polygon-5-Copy-3" stroke="#111111" fill="#444444" transform="translate(537.934994, 31.503912) scale(-1, 1) translate(-537.934994, -31.503912) " points="556.368343 4.64783951 558.609993 22.0508051 519.502627 58.3599854 517.259995 40.9568492"></polygon>
+                <path d="M239.338442,152.5 L201.483877,247.080002 L418.504158,247.080002 L379.664808,152.5 L239.338442,152.5 Z" id="Rectangle" stroke="#979797" fill="#111111"></path>
+                <polygon id="Polygon-4" stroke="#979797" fill="#222222" points="70.9799957 35.2099915 162.242392 79.8227471 91.9938354 154.289151 0.730010986 109.679993"></polygon>
+                <polygon id="Polygon-4-Copy" stroke="#979797" fill="#222222" transform="translate(538.514992, 94.749571) scale(-1, 1) translate(-538.514992, -94.749571) " points="528.008941 35.2099915 619.269989 79.8227471 549.02247 154.289151 457.759995 109.679993"></polygon>
+                <polygon id="Polygon-5" stroke="#979797" fill="#111111" points="69.9618801 0.277938383 99.757772 3.98444975 71.1291963 30.5761931"></polygon>
+                <polygon id="Polygon-5-Copy" stroke="#979797" fill="#111111" transform="translate(535.140005, 15.427066) scale(-1, 1) translate(-535.140005, -15.427066) " points="520.240005 0.277938383 550.040005 3.98444975 521.407483 30.5761931"></polygon>
+                <polygon id="Polygon" stroke="#979797" fill="#585858" points="141.5 108 238.414016 152.273887 200.727092 246.295507"></polygon>
+                <polygon id="Polygon" stroke="#979797" fill="#222222" points="479.61232 107.909402 548.258722 177.41866 420.284791 246.449539"></polygon>
+                <polygon id="Polygon-Copy" stroke="#979797" fill="#222222" transform="translate(135.731467, 177.190412) scale(-1, 1) translate(-135.731467, -177.190412) " points="131.088988 107.882262 199.722929 177.41866 71.7400055 246.498561"></polygon>
+                <polygon id="Polygon" stroke="#979797" fill="#585858" transform="translate(429.569120, 177.148983) scale(-1, 1) translate(-429.569120, -177.148983) " points="380.633335 108 478.504905 152.266375 439.872958 246.297965"></polygon>
+                <polygon id="Polygon-2" stroke="#979797" fill="#CECCCC" points="137.779076 80.3124394 140.018187 106.885195 71.4366815 176.309554 71.7714623 146.976987"></polygon>
+                <polygon id="Polygon-2-Copy" stroke="#979797" fill="#CECCCC" transform="translate(514.249161, 128.309295) scale(-1, 1) translate(-514.249161, -128.309295) " points="546.273844 80.3124394 548.54234 106.859917 479.955981 176.30615 480.26623 146.976987"></polygon>
+                <polygon id="Polygon-2-Copy-2" stroke="#979797" fill="#CECCCC" points="69.0099945 0.920013428 70.3253992 34.4682247 0.452181817 108.533594 1.77146234 74.9769865"></polygon>
+                <polygon id="Polygon-2-Copy-3" stroke="#979797" fill="#CECCCC" transform="translate(584.614994, 54.726804) scale(-1, 1) translate(-584.614994, -54.726804) " points="618.234651 0.920013428 619.549995 34.4682247 549.679993 108.533594 550.999212 74.9769865"></polygon>
+                <polygon id="Polygon-3-Copy" stroke="#979797" fill="#444444" transform="translate(469.635297, 92.722017) scale(-1, 1) translate(-469.635297, -92.722017) " points="457.990005 79.7281166 481.280589 80.2271798 460.18548 105.715917"></polygon>
+                <polygon id="Polygon-3" stroke="#979797" fill="#444444" points="138.720077 79.7281166 162.01066 80.2271798 140.915551 105.715917"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
