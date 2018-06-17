@@ -1,0 +1,19 @@
+# Ignore .DS_Store files on OS X
+.DS_Store
+
+# Ignore dependencies
+node_modules/
+
+# Ignore dist directory created by Webpack
+/dist/
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore unit test output
+/test/unit/coverage/
+
+# Ignore Visual Studio Code directory
+.vscode

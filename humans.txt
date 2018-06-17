@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jared Collier -- admin -- github.com/autoboxer
+
+# THANKS
+
+    Jared Collier
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, ES6, JavaScript, Vue, Webpack, Jest, ESLint, Yarn, Babel
