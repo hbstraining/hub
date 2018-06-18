@@ -14,27 +14,27 @@
                     <use xlink:href="#path-1"></use>
                 </mask>
                 <use id="Mask" fill="#1E1E1E" xlink:href="#path-1"></use>
-                <text id="zerocool" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#77DF74">
-                    <tspan x="37" y="84">zerocool</tspan>
+                <text id="lordNikon" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#77DF74">
+                    <tspan x="37" y="84">lordNikon</tspan>
                 </text>
                 <text id="$" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#64A962">
                     <tspan x="37" y="114">$</tspan>
                 </text>
                 <text id="training" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#77DF74">
-                    <tspan x="152" y="84">training</tspan>
+                    <tspan x="163" y="84">training</tspan>
                 </text>
                 <text id="master" mask="url(#mask-2)" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" letter-spacing="1.050001" fill="#77DF74">
-                    <tspan x="266" y="84">master</tspan>
+                    <tspan x="277" y="84">master</tspan>
                 </text>
                 <text id="in" mask="url(#mask-2)" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" letter-spacing="1.050001" fill="#77DF74">
-                    <tspan x="125" y="84">in</tspan>
+                    <tspan x="136" y="84">in</tspan>
                 </text>
                 <text id="cd-modern-web-develo" mask="url(#mask-2)" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" letter-spacing="1.050001" fill="#77DF74">
                     <tspan x="59" y="114">cd modern-web-development</tspan>
                 </text>
                 <rect id="Rectangle-2" fill="#77DF74" mask="url(#mask-2)" x="328" y="98" width="10" height="17"></rect>
                 <text id="on" mask="url(#mask-2)" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" letter-spacing="1.050001" fill="#77DF74">
-                    <tspan x="233" y="84">on</tspan>
+                    <tspan x="244" y="84">on</tspan>
                 </text>
             </g>
             <g id="banner" transform="translate(0.000000, 376.000000)">
