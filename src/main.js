@@ -1,35 +1,26 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+// the Vue build version to load with the `import` command
+// ( runtime-only or standalone ) has been set in webpack.base.conf with an alias
 import Vue from 'vue';
-import Vuetify from 'vuetify';
-import firebase from 'firebase';
 import App from './App';
 import router from './router';
 import 'babel-polyfill';
 
+import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
+
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 
-Vue.config.productionTip = false;
-
-// Initialize Firebase
-const config = {
-  apiKey: 'AIzaSyCyyOELPrj_pbf8xANzXNOj_dHUF2Nnd08',
-  authDomain: 'hbs-training-hub.firebaseapp.com',
-  databaseURL: 'https://hbs-training-hub.firebaseio.com',
-  projectId: 'hbs-training-hub',
-  storageBucket: '',
-  messagingSenderId: '771856227909'
-};
-
-firebase.initializeApp( config );
-
+// instructs Vue to use the Vuetify plugin
 Vue.use( Vuetify );
 
+// turn off annoying Vue development/production console warning
+Vue.config.productionTip = false;
+
+// initialize the Vue instance with our client-side router and the base App component
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  template: '<App/>',
   router,
-  components: { App },
-  template: '<App/>'
+  components: { App }
 });
