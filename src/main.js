@@ -3,6 +3,7 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import store from '@/store';
 import 'babel-polyfill';
 
 import Vuetify from 'vuetify';
@@ -22,5 +23,10 @@ new Vue({
   el: '#app',
   template: '<App/>',
   router,
-  components: { App }
+  store,
+  components: { App },
+
+  beforeCreate () {
+    store.dispatch( 'fetchAllClasses' );
+  }
 });

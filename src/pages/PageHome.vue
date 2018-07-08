@@ -11,6 +11,12 @@ export default {
     return {
       message: 'Welcome to Class'
     };
+  },
+
+  computed: {
+    classes () {
+      return Object.values( this.$store.state.classes );
+    }
   }
 };
 </script>

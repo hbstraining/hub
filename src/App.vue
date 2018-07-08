@@ -21,23 +21,12 @@
 </template>
 
 <script>
-import db from './database/db';
-
 export default {
   name: 'App',
 
   data: () => ({
     title: 'modern web development'
-  }),
-
-  firebase: {
-    classes: db.collection( 'classes' )
-      .onSnapshot( querySnapshot => {
-        querySnapshot.forEach( doc => {
-          console.log( `${doc.id} => ${doc.data().description}` );
-        });
-      })
-  }
+  })
 };
 </script>
 
