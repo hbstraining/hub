@@ -1,21 +1,29 @@
 <template>
-  <div class="page-contents">
+  <div class="main">
     <img src="../assets/logo.svg" class="logo">
-    <h1>{{ message }}</h1>
+    <h2 class="welcome">{{ message }}</h2>
+
+    <CourseCards :courses="courses"></CourseCards>
   </div>
 </template>
 
 <script>
+import CourseCards from '@/components/CourseCards';
+
 export default {
   data () {
     return {
-      message: 'Welcome to Class'
+      message: 'welcome to class.'
     };
   },
 
+  components: {
+    CourseCards
+  },
+
   computed: {
-    classes () {
-      return Object.values( this.$store.state.classes );
+    courses () {
+      return Object.values( this.$store.state.courses );
     }
   }
 };
@@ -24,6 +32,10 @@ export default {
 <style>
 .logo {
   margin-top: 2em;
-  max-width: 12em;
+  max-width: 5em;
+}
+
+.welcome {
+  margin-bottom: 2em;
 }
 </style>
