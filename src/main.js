@@ -10,9 +10,20 @@ import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
+import colors from 'vuetify/es5/util/colors';
 
 // instructs Vue to use the Vuetify plugin
-Vue.use( Vuetify );
+Vue.use( Vuetify, {
+  theme: {
+    primary: colors.indigo.darken1, // #E53935
+    secondary: colors.indigo.lighten4, // #FFCDD2
+    accent: colors.purple.base, // #3F51B5
+    error: colors.red.accent2, // #FF5252
+    info: colors.blue.base, // #2196F3
+    success: colors.green.base, // #4CAF50
+    warning: colors.amber.base // #FFC107
+  }
+});
 
 // turn off annoying Vue development/production console warning
 Vue.config.productionTip = false;
@@ -27,6 +38,6 @@ new Vue({
   components: { App },
 
   beforeCreate () {
-    store.dispatch( 'fetchAllClasses' );
+    store.dispatch( 'fetchAllCourses' );
   }
 });

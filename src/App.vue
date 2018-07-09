@@ -2,20 +2,17 @@
   <div id="app">
 
     <v-app>
-      <!-- material design toolbar at the top of the page -->
-      <v-toolbar dark color="primary">
+      <!-- material design toolbar: https://vuetifyjs.com/en/components/toolbars -->
+      <v-toolbar color="primary">
         <v-toolbar-title class="white--text">{{ title }}</v-toolbar-title>
       </v-toolbar>
       <!-- main content area -->
       <v-content>
-        <v-container fluid>
-          <!-- contents from the selected route will be rendered here -->
+          <!-- contents from the selected route will be rendered here: https://github.com/vuejs/vue-router -->
           <router-view/>
 
-        </v-container>
       </v-content>
-      <!-- material design footer -->
-      <v-footer app></v-footer>
+
     </v-app>
   </div>
 </template>
