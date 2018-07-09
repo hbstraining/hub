@@ -5,13 +5,12 @@
     <v-card-media
       :src="course.imageUrl"
       height="300"
+      :class="{ 'card__media--in-progress': course.isInProgress }"
     ></v-card-media>
 
     <v-card-title primary-title>
-      <div>
-        <h3 class="headline mb-0">{{ course.title }}</h3>
-        <div>{{ course.description }}</div>
-      </div>
+      <h3 class="headline mb-0">{{ course.title }}</h3>
+      <div class="description">{{ course.description }}</div>
     </v-card-title>
   </v-card>
 
@@ -36,8 +35,25 @@ export default {
 }
 
 @media all and ( min-width: 704px ) {
-  .card {
-    width: 320px;
-  }
+  .card { width: 320px; }
 }
+
+.card__media::after {
+  content: 'coming soon';
+  position: absolute;
+  right: -30px;
+  top: 20px;
+  transform: rotate( 45deg );
+  background-color: #3F51B5;
+  color: white;
+  padding: 0.25em 2em;
+}
+
+.card__media--in-progress::after {
+  content: 'in progress'
+}
+
+.card__title { flex-direction: column; }
+.headline { width: 100%; }
+.description { width: 100%; }
 </style>
